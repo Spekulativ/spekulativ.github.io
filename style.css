@@ -7,7 +7,7 @@ body {
 
 #titel {
   padding: 20px;
-  font-family: Helvetica, sans-serif;
+  font-family: Copperplate, sans-serif;
   text-align: center;
 }
 
@@ -23,10 +23,10 @@ body {
 .flex-undercontainer div {
   border: 2px solid red;
   display: flex;
+  flex-direction: row;
+  width: fit-content;
+  display: inline;
   justify-content: space-around;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  flex: 1;
 }
 
 .flex-undercontainer img {
