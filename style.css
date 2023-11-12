@@ -2,7 +2,6 @@ body {
   background-image: url(background.png);
   background-attachment: fixed;
   background-size: 1920px;
-
 }
 
 #titel {
@@ -18,19 +17,29 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: aliceblue;
+  border-radius: 10px;
 }
-
-.flex-undercontainer div {
-  border: 2px solid red;
+.flexundercontainer {
   display: flex;
-  flex-direction: row;
-  width: fit-content;
-  display: inline;
+  align-items: center;
   justify-content: space-around;
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: rgb(25, 51, 20);
+  height: 400px;
+  max-width: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.flex-undercontainer img {
-  width: 60px;
+.flexundercontainer div {
+  border: 2px solid red;
+  width: auto;
+  height: auto;
+}
+
+.flexundercontainer img {
+  width: 100px;
   height: 30xp;
 }
 
