@@ -2,5 +2,6 @@
 
 ## Dates and progress
 
-### Trying to get Flexbox working
+### November
+* Trying to get Flexbox working
 
